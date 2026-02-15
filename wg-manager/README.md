@@ -1,6 +1,6 @@
 # WireGuard Manager
 
-Профессиональное GUI приложение для управления профилями WireGuard на Ubuntu 22.04/24.04.
+ GUI приложение для управления профилями wg-quick-GUIна Ubuntu 22.04/24.04.
 
 ![WireGuard Manager](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![GTK](https://img.shields.io/badge/GUI-GTK%203-green)
