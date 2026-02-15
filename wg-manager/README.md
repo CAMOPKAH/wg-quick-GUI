@@ -1,4 +1,4 @@
-# WireGuard Manager
+# wg-quick-GUI Manager
 
  GUI приложение для управления профилями wg-quick-GUIна Ubuntu 22.04/24.04.
 
