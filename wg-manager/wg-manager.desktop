@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WireGuard Manager
+GenericName=WireGuard VPN Manager
+Comment=GUI для управления профилями WireGuard
+Exec=sh -c "cd \"$(dirname \"%k\")\" && ./run.sh"
+Icon=network-wireless
+Terminal=false
+Categories=Network;System;
+Keywords=wireguard;vpn;network;security;
+StartupNotify=true
+StartupWMClass=WireGuard Manager
+Actions=Debug;NoGUI;
+
+[Desktop Action Debug]
+Name=Запуск с отладкой
+Exec=sh -c "cd \"$(dirname \"%k\")\" && ./run.sh --debug"
+
+[Desktop Action NoGUI]
+Name=Запуск без GUI
+Exec=sh -c "cd \"$(dirname \"%k\")\" && ./run.sh --no-gui"
